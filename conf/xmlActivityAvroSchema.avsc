@@ -1,0 +1,12 @@
+//anuj Singh avro version 0.0.1 
+{
+	"name" : "RawPacket",
+   	"type" : "record",
+	"fields" : [
+		{ "name" : "userName" , "type" : ["null","string"] },
+		{ "name" : "websiteName" , "type":["null","string"] },
+		{ "name" : "activityTypeCode" , "type" : ["null","int"] , "default": null },
+		{ "name" : "loggedInTime" , "type" : ["null","string"] , "logicalType": "date", "default": null },
+		{ "name" : "number_of_views" , "type" : ["null","int"] , "default": null }
+	]
+}
