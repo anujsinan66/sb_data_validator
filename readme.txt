@@ -3,9 +3,12 @@
 #valid record and perform join operation on dataframe to get desire output.
 # after executing below command you will get result json in output folder
 
-mvn -U clean install
-apt-get update -y && apt-get install -y zip && apt-get install maven -y && apt-get install python-pip -y
+
 cd sb_data_validator
+
+mvn -U clean install
+
+apt-get update -y && apt-get install -y zip && apt-get install maven -y && apt-get install python-pip -y
 
 java -cp SBS_data_validator-0.0.1-SNAPSHOT.jar com.source.data.service.DataValidatorMain
 
