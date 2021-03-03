@@ -7,7 +7,7 @@ cd sb_data_validator
 
 mvn -U clean install
 
-apt-get update -y && apt-get install -y zip && apt-get install maven -y && apt-get install python-pip -y
+apt-get update -y &&  apt-get install maven -y 
 
 java -cp SBS_data_validator-0.0.1-SNAPSHOT.jar com.source.data.service.DataValidatorMain
 
